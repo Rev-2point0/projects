@@ -1,0 +1,83 @@
+.greenContainer{
+    border: 4px solid darkgreen;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    padding: 10px;
+}
+
+.blueBox{
+    border: 4px solid blue;
+    background-color: lightblue;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+}
+
+.noBox{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+
+.pinkBox{
+    border: 4px solid darksalmon;
+    background-color: lightpink;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 29px;
+    margin: 5px;
+}
+
+.pinkBox.pinkBoxMid{
+    padding: 4px;
+}
+
+.redBox{
+    border: 4px solid red;
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.maroonBox{
+    border: 4px solid maroon;
+    background-color: lightcoral;
+    flex: 1;
+    margin: 5px 5px 5px 0;
+    padding: 35px 0;
+}
+
+.rightCol{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.lightBlue{
+    border: 4px solid lightslategray;
+    background-color: aliceblue;
+    flex: 1;
+
+}
+
+.lightBlueMid{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 2.5px;
+
+}
+
+.pinkBox.bottom{
+    padding: 24px;
+    margin: 0px 5px 0px 2.5px;
+}
